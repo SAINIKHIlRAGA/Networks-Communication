@@ -1,0 +1,390 @@
+
+#
+#
+#
+#
+#
+#
+#
+Output for network1.txt
+#
+#
+#
+#
+#
+#
+#
+
+
+----------------------------------------------------------------------------------------------------
+
+Round 1: A
+
+Current DV Matrix: [0, 2, 999, 999, 1]
+
+Last DV Matrix:    [0, 2, 999, 999, 1]
+
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to Node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV Matrix at node B = [2, 0, 5, 999, 3]
+
+Sending DV to Node E
+Node E received DV from A
+Updating DV matrix at node E
+New DV Matrix at node E = [1, 3, 999, 1, 0]
+
+----------------------------------------------------------------------------------------------------
+
+Round 2: B
+
+Current DV Matrix: [2, 0, 5, 999, 3]
+
+Last DV Matrix:    [2, 0, 5, 999, 999]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from B
+Updating DV matrix at node A
+New DV Matrix at node A = [0, 2, 7, 999, 1]
+
+Sending DV to Node C
+Node C received DV from B
+Updating DV matrix at node C
+New DV Matrix at node C = [7, 5, 0, 4, 8]
+
+----------------------------------------------------------------------------------------------------
+
+Round 3: C
+
+Current DV Matrix: [7, 5, 0, 4, 8]
+
+Last DV Matrix:    [999, 5, 0, 4, 999]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node B
+Node B received DV from C
+Updating DV matrix at node B
+New DV Matrix at node B = [2, 0, 5, 9, 3]
+
+Sending DV to Node D
+Node D received DV from C
+Updating DV matrix at node D
+New DV Matrix at node D = [11, 9, 4, 0, 1]
+
+----------------------------------------------------------------------------------------------------
+
+Round 4: D
+
+Current DV Matrix: [11, 9, 4, 0, 1]
+
+Last DV Matrix:    [999, 999, 4, 0, 1]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node C
+Node C received DV from D
+Updating DV matrix at node C
+New DV Matrix at node C = [7, 5, 0, 4, 5]
+
+Sending DV to Node E
+Node E received DV from D
+Updating DV matrix at node E
+New DV Matrix at node E = [1, 3, 5, 1, 0]
+
+----------------------------------------------------------------------------------------------------
+
+Round 5: E
+
+Current DV Matrix: [1, 3, 5, 1, 0]
+
+Last DV Matrix:    [1, 999, 999, 1, 0]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from E
+Updating DV matrix at node A
+New DV Matrix at node A = [0, 2, 6, 2, 1]
+
+Sending DV to Node D
+Node D received DV from E
+Updating DV matrix at node D
+New DV Matrix at node D = [2, 4, 4, 0, 1]
+
+----------------------------------------------------------------------------------------------------
+
+Round 6: A
+
+Current DV Matrix: [0, 2, 6, 2, 1]
+
+Last DV Matrix:    [0, 2, 999, 999, 1]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV Matrix at node B = [2, 0, 5, 4, 3]
+
+Sending DV to Node E
+Node E received DV from A
+No change in DV at node E
+
+----------------------------------------------------------------------------------------------------
+
+Round 7: B
+
+Current DV Matrix: [2, 0, 5, 4, 3]
+
+Last DV Matrix:    [2, 0, 5, 999, 3]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from B
+No change in DV at node A
+
+Sending DV to Node C
+Node C received DV from B
+No change in DV at node C
+
+----------------------------------------------------------------------------------------------------
+
+Round 8: C
+
+Current DV Matrix: [7, 5, 0, 4, 5]
+
+Last DV Matrix:    [7, 5, 0, 4, 8]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node B
+Node B received DV from C
+No change in DV at node B
+
+Sending DV to Node D
+Node D received DV from C
+No change in DV at node D
+
+----------------------------------------------------------------------------------------------------
+
+Round 9: D
+
+Current DV Matrix: [2, 4, 4, 0, 1]
+
+Last DV Matrix:    [11, 9, 4, 0, 1]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node C
+Node C received DV from D
+Updating DV matrix at node C
+New DV Matrix at node C = [6, 5, 0, 4, 5]
+
+Sending DV to Node E
+Node E received DV from D
+No change in DV at node E
+
+----------------------------------------------------------------------------------------------------
+
+Round 10: E
+
+Current DV Matrix: [1, 3, 5, 1, 0]
+
+Last DV Matrix:    [1, 3, 5, 1, 0]
+
+Updated from last DV matrix or the same? Not Updated
+
+----------------------------------------------------------------------------------------------------
+
+Round 11: A
+
+Current DV Matrix: [0, 2, 6, 2, 1]
+
+Last DV Matrix:    [0, 2, 6, 2, 1]
+
+Updated from last DV matrix or the same? Not Updated
+
+----------------------------------------------------------------------------------------------------
+
+Round 12: B
+
+Current DV Matrix: [2, 0, 5, 4, 3]
+
+Last DV Matrix:    [2, 0, 5, 4, 3]
+
+Updated from last DV matrix or the same? Not Updated
+
+----------------------------------------------------------------------------------------------------
+
+Round 13: C
+
+Current DV Matrix: [6, 5, 0, 4, 5]
+
+Last DV Matrix:    [7, 5, 0, 4, 5]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node B
+Node B received DV from C
+No change in DV at node B
+
+Sending DV to Node D
+Node D received DV from C
+No change in DV at node D
+
+----------------------------------------------------------------------------------------------------
+
+Round 14: D
+
+Current DV Matrix: [2, 4, 4, 0, 1]
+
+Last DV Matrix:    [2, 4, 4, 0, 1]
+
+Updated from last DV matrix or the same? Not Updated
+
+----------------------------------------------------------------------------------------------------
+
+Node A DV = [0, 2, 6, 2, 1]
+Node B DV = [2, 0, 5, 4, 3]
+Node C DV = [6, 5, 0, 4, 5]
+Node D DV = [2, 4, 4, 0, 1]
+Node E DV = [1, 3, 5, 1, 0]
+
+Number of rounds till convergence (Round # when one of the nodes last updated its DV) = 14
+
+
+----------------------------------------------------------------------------------------------------
+
+
+#
+#
+#
+#
+#
+#
+#
+Output for network2.txt
+#
+#
+#
+#
+#
+#
+#
+
+
+
+----------------------------------------------------------------------------------------------------
+
+Round 1: A
+
+Current DV Matrix: [0, 10, 10, 10, 10]
+
+Last DV Matrix:    [0, 10, 10, 10, 10]
+
+Updated from last DV matrix or the same? Not Updated
+
+Sending DV to Node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV Matrix at node B = [10, 0, 20, 20, 20]
+
+Sending DV to Node C
+Node C received DV from A
+Updating DV matrix at node C
+New DV Matrix at node C = [10, 20, 0, 20, 20]
+
+Sending DV to Node D
+Node D received DV from A
+Updating DV matrix at node D
+New DV Matrix at node D = [10, 20, 20, 0, 20]
+
+Sending DV to Node E
+Node E received DV from A
+Updating DV matrix at node E
+New DV Matrix at node E = [10, 20, 20, 20, 0]
+
+----------------------------------------------------------------------------------------------------
+
+Round 2: B
+
+Current DV Matrix: [10, 0, 20, 20, 20]
+
+Last DV Matrix:    [10, 0, 999, 999, 999]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from B
+No change in DV at node A
+
+----------------------------------------------------------------------------------------------------
+
+Round 3: C
+
+Current DV Matrix: [10, 20, 0, 20, 20]
+
+Last DV Matrix:    [10, 999, 0, 999, 999]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from C
+No change in DV at node A
+
+----------------------------------------------------------------------------------------------------
+
+Round 4: D
+
+Current DV Matrix: [10, 20, 20, 0, 20]
+
+Last DV Matrix:    [10, 999, 999, 0, 999]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from D
+No change in DV at node A
+
+----------------------------------------------------------------------------------------------------
+
+Round 5: E
+
+Current DV Matrix: [10, 20, 20, 20, 0]
+
+Last DV Matrix:    [10, 999, 999, 999, 0]
+
+Updated from last DV matrix or the same? Updated
+
+Sending DV to Node A
+Node A received DV from E
+No change in DV at node A
+
+----------------------------------------------------------------------------------------------------
+
+Round 6: A
+
+Current DV Matrix: [0, 10, 10, 10, 10]
+
+Last DV Matrix:    [0, 10, 10, 10, 10]
+
+Updated from last DV matrix or the same? Not Updated
+
+----------------------------------------------------------------------------------------------------
+
+Node A DV = [0, 10, 10, 10, 10]
+Node B DV = [10, 0, 20, 20, 20]
+Node C DV = [10, 20, 0, 20, 20]
+Node D DV = [10, 20, 20, 0, 20]
+Node E DV = [10, 20, 20, 20, 0]
+
+Number of rounds till convergence (Round # when one of the nodes last updated its DV) = 6
+
+
+----------------------------------------------------------------------------------------------------

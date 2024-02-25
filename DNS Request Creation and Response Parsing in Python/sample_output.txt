@@ -1,0 +1,231 @@
+Received a request to get IP Address for gmu.edu
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------------------------------
+header.ID            =     7626
+header.QR            =     1
+header.OPCODE        =     0
+header.AA            =     0
+header.TC            =     0
+header.RD            =     1
+header.RA            =     1
+header.Z             =     0
+header.RCODE         =     0
+header.QDCOUNT       =     1
+header.ANCOUNT       =     1
+header.NSCOUNT       =     0
+header.ARCOUNT       =     0
+question1.QNAME      =     gmu.edu
+question1.QTYPE      =     1
+question1.QCLASS     =     1
+answer1.NAME         =     gmu.edu
+answer1.TYPE         =     1
+answer1.CLASS        =     1
+answer1.TTL          =     3600
+answer1.RDLENGTH     =     4
+answer1.RDATA        =     129.174.134.28
+----------------------------------------------------------------------------------------------------
+
+
+
+Received a request to get IP Address for google.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------------------------------
+header.ID            =     53592
+header.QR            =     1
+header.OPCODE        =     0
+header.AA            =     0
+header.TC            =     0
+header.RD            =     1
+header.RA            =     1
+header.Z             =     0
+header.RCODE         =     0
+header.QDCOUNT       =     1
+header.ANCOUNT       =     6
+header.NSCOUNT       =     0
+header.ARCOUNT       =     0
+question1.QNAME      =     google.com
+question1.QTYPE      =     1
+question1.QCLASS     =     1
+answer1.NAME         =     google.com
+answer1.TYPE         =     1
+answer1.CLASS        =     1
+answer1.TTL          =     242
+answer1.RDLENGTH     =     4
+answer1.RDATA        =     172.253.62.101
+answer2.NAME         =     google.com
+answer2.TYPE         =     1
+answer2.CLASS        =     1
+answer2.TTL          =     242
+answer2.RDLENGTH     =     4
+answer2.RDATA        =     172.253.62.102
+answer3.NAME         =     google.com
+answer3.TYPE         =     1
+answer3.CLASS        =     1
+answer3.TTL          =     242
+answer3.RDLENGTH     =     4
+answer3.RDATA        =     172.253.62.139
+answer4.NAME         =     google.com
+answer4.TYPE         =     1
+answer4.CLASS        =     1
+answer4.TTL          =     242
+answer4.RDLENGTH     =     4
+answer4.RDATA        =     172.253.62.100
+answer5.NAME         =     google.com
+answer5.TYPE         =     1
+answer5.CLASS        =     1
+answer5.TTL          =     242
+answer5.RDLENGTH     =     4
+answer5.RDATA        =     172.253.62.113
+answer6.NAME         =     google.com
+answer6.TYPE         =     1
+answer6.CLASS        =     1
+answer6.TTL          =     242
+answer6.RDLENGTH     =     4
+answer6.RDATA        =     172.253.62.138
+----------------------------------------------------------------------------------------------------
+
+
+
+Received a request to get IP Address for microsoft.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------------------------------
+header.ID            =     44866
+header.QR            =     1
+header.OPCODE        =     0
+header.AA            =     0
+header.TC            =     0
+header.RD            =     1
+header.RA            =     1
+header.Z             =     0
+header.RCODE         =     0
+header.QDCOUNT       =     1
+header.ANCOUNT       =     5
+header.NSCOUNT       =     0
+header.ARCOUNT       =     0
+question1.QNAME      =     microsoft.com
+question1.QTYPE      =     1
+question1.QCLASS     =     1
+answer1.NAME         =     microsoft.com
+answer1.TYPE         =     1
+answer1.CLASS        =     1
+answer1.TTL          =     2969
+answer1.RDLENGTH     =     4
+answer1.RDATA        =     20.112.250.133
+answer2.NAME         =     microsoft.com
+answer2.TYPE         =     1
+answer2.CLASS        =     1
+answer2.TTL          =     2969
+answer2.RDLENGTH     =     4
+answer2.RDATA        =     20.231.239.246
+answer3.NAME         =     microsoft.com
+answer3.TYPE         =     1
+answer3.CLASS        =     1
+answer3.TTL          =     2969
+answer3.RDLENGTH     =     4
+answer3.RDATA        =     20.76.201.171
+answer4.NAME         =     microsoft.com
+answer4.TYPE         =     1
+answer4.CLASS        =     1
+answer4.TTL          =     2969
+answer4.RDLENGTH     =     4
+answer4.RDATA        =     20.70.246.20
+answer5.NAME         =     microsoft.com
+answer5.TYPE         =     1
+answer5.CLASS        =     1
+answer5.TTL          =     2969
+answer5.RDLENGTH     =     4
+answer5.RDATA        =     20.236.44.162
+----------------------------------------------------------------------------------------------------
+
+
+
+Received a request to get IP Address for amazon.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------------------------------
+header.ID            =     2896
+header.QR            =     1
+header.OPCODE        =     0
+header.AA            =     0
+header.TC            =     0
+header.RD            =     1
+header.RA            =     1
+header.Z             =     0
+header.RCODE         =     0
+header.QDCOUNT       =     1
+header.ANCOUNT       =     3
+header.NSCOUNT       =     0
+header.ARCOUNT       =     0
+question1.QNAME      =     amazon.com
+question1.QTYPE      =     1
+question1.QCLASS     =     1
+answer1.NAME         =     amazon.com
+answer1.TYPE         =     1
+answer1.CLASS        =     1
+answer1.TTL          =     427
+answer1.RDLENGTH     =     4
+answer1.RDATA        =     205.251.242.103
+answer2.NAME         =     amazon.com
+answer2.TYPE         =     1
+answer2.CLASS        =     1
+answer2.TTL          =     427
+answer2.RDLENGTH     =     4
+answer2.RDATA        =     54.239.28.85
+answer3.NAME         =     amazon.com
+answer3.TYPE         =     1
+answer3.CLASS        =     1
+answer3.TTL          =     427
+answer3.RDLENGTH     =     4
+answer3.RDATA        =     52.94.236.248
+----------------------------------------------------------------------------------------------------
+
+
+
+Received a request to get IP Address for apple.com
+Preparing DNS query..
+Contacting DNS server..
+Sending DNS query...
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+----------------------------------------------------------------------------------------------------
+header.ID            =     42843
+header.QR            =     1
+header.OPCODE        =     0
+header.AA            =     0
+header.TC            =     0
+header.RD            =     1
+header.RA            =     1
+header.Z             =     0
+header.RCODE         =     0
+header.QDCOUNT       =     1
+header.ANCOUNT       =     1
+header.NSCOUNT       =     0
+header.ARCOUNT       =     0
+question1.QNAME      =     apple.com
+question1.QTYPE      =     1
+question1.QCLASS     =     1
+answer1.NAME         =     apple.com
+answer1.TYPE         =     1
+answer1.CLASS        =     1
+answer1.TTL          =     378
+answer1.RDLENGTH     =     4
+answer1.RDATA        =     17.253.144.10
+----------------------------------------------------------------------------------------------------
+
+
+
